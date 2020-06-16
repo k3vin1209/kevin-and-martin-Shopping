@@ -2,7 +2,6 @@
 function myFunction1() {
 	document.getElementById("myDropdown1").classList.toggle("show");
 	document.getElementById("myDropdown1").addEventListener("mouseout", myFunction1);	
-	document.getElementById("myDropdown1").addEventListener("mousein", myFunction1);		
 }
 
 function myFunction2() {
